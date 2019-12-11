@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background_picture">
+
+    <LinearLayout
+        android:id="@+id/registration"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewLogin_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login:" />
+
+        <EditText
+            android:id="@+id/editTextLogin_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="test"
+            tools:text="test" />
+
+        <TextView
+            android:id="@+id/textViewPassword_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:" />
+
+        <EditText
+            android:id="@+id/editTextPassword_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="test"
+            tools:text="test" />
+
+
+        <TextView
+            android:id="@+id/textViewName_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:" />
+
+        <EditText
+            android:id="@+id/editTextName_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="test"
+            tools:text="test" />
+
+        <TextView
+            android:id="@+id/textViewSurname_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surname:" />
+
+        <EditText
+            android:id="@+id/editTextSurname_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="test"
+            tools:text="test" />
+
+        <TextView
+            android:id="@+id/textViewMail_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="e-mail:" />
+
+        <EditText
+            android:id="@+id/editTextMail_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="test@gmail.com"
+            tools:text="test@gmail.com" />
+
+
+        <Button
+            android:id="@+id/editregistrationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:text="REGISTER"
+            android:textColor="@color/orange"/>
+
+    </LinearLayout>
+
+</ScrollView>
